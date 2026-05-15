@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"button_credits",
+  "%Name":"obj_attack",
   "eventList":[],
   "managed":true,
-  "name":"button_credits",
+  "name":"obj_attack",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/objects/buttons.yy",
+    "name":"weapons",
+    "path":"folders/objects/weapons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"credits",
-    "path":"sprites/credits/credits.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"button_credits",
-  "eventList":[],
+  "%Name":"bga_title",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"button_credits",
+  "name":"bga_title",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/objects/buttons.yy",
+    "name":"background and background assets",
+    "path":"folders/background and background assets.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"credits",
-    "path":"sprites/credits/credits.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
