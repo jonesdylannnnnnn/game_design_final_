@@ -16,10 +16,10 @@ if (_hor != 0 or _ver != 0)
 }
 else 
 {
-	if (sprite_index == spr_leave_right) sprite_index = spr_leave_right;
-    else if (sprite_index == spr_leave_left) sprite_index = spr_leave_left;
-    else if (sprite_index == spr_leave_up) sprite_index = spr_leave_up;
-    else if (sprite_index == spr_leave_down) sprite_index = spr_leave_down;
+	if (sprite_index == spr_leave_right) sprite_index = player_idle_right;
+    else if (sprite_index == spr_leave_left) sprite_index = player_idle_left;
+    else if (sprite_index == spr_leave_up) sprite_index = player_idle_up;
+    else if (sprite_index == spr_leave_down) sprite_index = player_idle_down;
 }
 
 if (mouse_check_button(mb_right))

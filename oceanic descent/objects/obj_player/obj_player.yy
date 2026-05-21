@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_leave_left",
-    "path":"sprites/spr_leave_left/spr_leave_left.yy",
+    "name":"player_idle_down",
+    "path":"sprites/player_idle_down/player_idle_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,
