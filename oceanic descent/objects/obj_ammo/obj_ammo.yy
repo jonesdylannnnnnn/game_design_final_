@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"settings",
-    "path":"sprites/settings/settings.yy",
+    "name":"spr_aim",
+    "path":"sprites/spr_aim/spr_aim.yy",
   },
   "spriteMaskId":null,
   "visible":true,

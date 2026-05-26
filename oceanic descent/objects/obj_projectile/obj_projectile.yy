@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"poster_bitten",
-    "path":"sprites/poster_bitten/poster_bitten.yy",
+    "name":"Sprite35",
+    "path":"sprites/Sprite35/Sprite35.yy",
   },
   "spriteMaskId":null,
   "visible":true,

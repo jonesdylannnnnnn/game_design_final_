@@ -7,19 +7,19 @@ move_and_collide(_hor * move_speed, _ver * move_speed, tilemap, undefined, undef
 
 if (_hor != 0 or _ver != 0)
 {
-    if (_ver > 0) sprite_index = spr_leave_down;
-    else if (_ver < 0) sprite_index = spr_leave_up;
-    else if (_hor > 0) sprite_index = spr_leave_right; 
-    else if (_hor < 0) sprite_index = spr_leave_left;
+    if (_ver > 0) sprite_index = player_walk_down;
+    else if (_ver < 0) sprite_index = player_walk_up;
+    else if (_hor > 0) sprite_index = player_walk_right; 
+    else if (_hor < 0) sprite_index = player_walk_left;
         
     facing = point_direction(0,0,_hor,_ver);
 }
 else 
 {
-	if (sprite_index == spr_leave_right) sprite_index = player_idle_right;
-    else if (sprite_index == spr_leave_left) sprite_index = player_idle_left;
-    else if (sprite_index == spr_leave_up) sprite_index = player_idle_up;
-    else if (sprite_index == spr_leave_down) sprite_index = player_idle_down;
+	if (sprite_index == player_walk_right) sprite_index = player_idle_right;
+    else if (sprite_index == player_walk_left) sprite_index = player_idle_left;
+    else if (sprite_index == player_walk_up) sprite_index = player_idle_up;
+    else if (sprite_index == player_walk_down) sprite_index = player_idle_down;
 }
 
 if (mouse_check_button(mb_right))
@@ -37,7 +37,7 @@ if (mouse_check_button(mb_right))
     {
         if (can_shoot and usable_ammo > 0)
         {
-            var _projectile = instance_create_depth(x,y,0,obj_projectile);
+            var _projectile = instance_create_depth(x,y-30,0,obj_projectile);
             can_shoot = false;
             usable_ammo -= 1;
             alarm[1] = 50;
