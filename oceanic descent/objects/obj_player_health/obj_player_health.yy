@@ -10,8 +10,8 @@
   "name":"obj_player_health",
   "overriddenProperties":[],
   "parent":{
-    "name":"miscellaneous",
-    "path":"folders/miscellaneous.yy",
+    "name":"player",
+    "path":"folders/objects/player.yy",
   },
   "parentObjectId":null,
   "persistent":true,
