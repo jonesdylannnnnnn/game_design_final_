@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"walls__1_",
-    "path":"sprites/walls__1_/walls__1_.yy",
+    "name":"walls__2_",
+    "path":"sprites/walls__2_/walls__2_.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
