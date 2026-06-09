@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_aim",
-    "path":"sprites/spr_aim/spr_aim.yy",
+    "name":"spr_ammo",
+    "path":"sprites/spr_ammo/spr_ammo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

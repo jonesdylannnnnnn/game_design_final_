@@ -22,38 +22,28 @@ else
     else if (sprite_index == player_walk_down) sprite_index = player_idle_down;
 }
 
-if (mouse_check_button(mb_right))
-{
-    cursor_sprite = spr_aim;
-    move_speed = 0.3;    
-    if (keyboard_check_pressed(ord("E")))
-    {
-        var _inst = instance_create_depth(x, y, depth, obj_attack);
-        _inst.image_angle = facing;
-        _inst.damage *= damage;
-    }
 
     if(mouse_check_button_pressed(mb_left))
     {
-        if (can_shoot and usable_ammo > 0)
+        if (can_shoot and obj_player_stats.usable_ammo > 0)
         {
-            var _projectile = instance_create_depth(x,y-30,0,obj_projectile);
+            var _projectile = instance_create_depth(x,y,0,obj_projectile);
             can_shoot = false;
-            usable_ammo -= 1;
+            obj_player_stats.usable_ammo -= 1;
             alarm[1] = 50;
         }
     }
-}
+
 else {
 	move_speed = 1;
     cursor_sprite = spr_cursor
 }
 
 if keyboard_check_pressed(ord("R")) {
-    if (usable_ammo < 10) {
-        while (projectile_ammo > 0 and usable_ammo < 10) {
-            usable_ammo += 1;
-            projectile_ammo -= 1;
+    if (obj_player_stats.usable_ammo < 10) {
+        while (obj_player_stats.projectile_ammo > 0 and obj_player_stats.usable_ammo < 10) {
+            obj_player_stats.usable_ammo += 1;
+            obj_player_stats.projectile_ammo -= 1;
         }
     }
 }

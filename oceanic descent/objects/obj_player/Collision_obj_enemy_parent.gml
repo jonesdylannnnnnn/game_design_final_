@@ -1,9 +1,9 @@
 if (alarm[0] < 0)
 {
-    hp -= other.damage;
+    obj_player_stats.hp -= other.damage;
     alarm[0] = 60;
     
-    if (hp <= 0)
+    if (obj_player_stats.hp <= 0)
     {
         room_restart();
     }

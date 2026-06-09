@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"player_idle_down",
-    "path":"sprites/player_idle_down/player_idle_down.yy",
+    "name":"enemy_idle_down",
+    "path":"sprites/enemy_idle_down/enemy_idle_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

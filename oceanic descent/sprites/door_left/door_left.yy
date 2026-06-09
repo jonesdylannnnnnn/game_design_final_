@@ -23,7 +23,7 @@
   ],
   "name":"door_left",
   "nineSlice":null,
-  "origin":4,
+  "origin":5,
   "parent":{
     "name":"doors",
     "path":"folders/sprites/doors.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":64,
+    "xorigin":128,
     "yorigin":64,
   },
   "swatchColours":null,
