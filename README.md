@@ -6,4 +6,5 @@ areas of the world are still hidden from you. you’ve been tasked to explore th
 - enemies.
 - pick up health items / ammunition items
 - multiple rooms.
+- fun ocean-like look ! (not fun. evil ocean-like look.)
 - completed ENOUGH by this time.
