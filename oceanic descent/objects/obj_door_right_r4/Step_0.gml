@@ -5,7 +5,7 @@ if (instance_exists(obj_player) and distance_to_object(obj_player) < 8 )
     {
         var _ins = instance_create_depth(0, 0, -9999, obj_fade);
     _ins.fade_speed = 0.012;
-    _ins.room_transition = Room3;
+    _ins.room_transition = Room5;
     }
 }
 else {

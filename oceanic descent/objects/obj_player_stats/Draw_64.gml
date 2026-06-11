@@ -11,4 +11,7 @@ if room != RoomMenu or RoomTitle{
         }
     }
 }
+if hp = 0{
+    hp += 10;
+}
 

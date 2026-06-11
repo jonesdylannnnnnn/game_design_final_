@@ -3,4 +3,4 @@ tilemap = layer_tilemap_get_id("tiles_col");
 
 
 facing = 0;
-can_shoot = true;
+can_shoot = false;

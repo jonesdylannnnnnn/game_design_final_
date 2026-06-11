@@ -22,6 +22,12 @@ else
     else if (sprite_index == player_walk_down) sprite_index = player_idle_down;
 }
 
+if(mouse_check_button(mb_right))
+{
+    can_shoot = true;
+    cursor_sprite = spr_aim;
+    move_speed = 0.5;
+}
 
     if(mouse_check_button_pressed(mb_left))
     {
